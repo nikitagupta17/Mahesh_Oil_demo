@@ -1,0 +1,92 @@
+Customer,Location,Segment,Expected Order Date,Expected Order Value,Recommended Action,Priority,Assigned to
+Mukharochak,Sirohi,Others,19.03.2024,328000,Visit today,Medium,Abhinav Mishra
+J S Foods,Kandla,Others,03.03.2024,466000,No Immediate Action Required,Low,Siddharth Gupta
+Seema Hospitality,Mumbai,Promising,22.02.2024,284000,No Immediate Action Required,Low,Abhinav Mishra
+Devpur Krushi Farmers,Surat,Others,18.03.2024,62000,Visit today,Medium,Karthik Singh
+SGP Food Manufacturers,Delhi,Loyal,05.03.2024,303000,"High value order not met, follow up immediately",High,HO
+Southern Gourmet Bites,Mumbai,Others,23.03.2024,0,No Immediate Action Required,Low,Apoorv Kumar
+Homestyle Foods,Chittorgarh,Others,20.03.2024,356000,No Immediate Action Required,Low,Siddharth Gupta
+Amandeep Kaur,Mumbai,Others,23.03.2024,296000,No Immediate Action Required,Low,Rahul Singh
+Handuja Bakers Pvt Ltd,Surat,Core,16.03.2024,354000,"High value order not met, follow up immediately",High,HO
+The Snack Company,Baroda,Others,15.03.2024,282000,No Immediate Action Required,Low,Kavitha Gupta
+Ajanta Products,Mumbai,Others,26.03.2024,0,No Immediate Action Required,Low,Kavitha Gupta
+USF Food & Allied Products,Surat,Promising,17.03.2024,202000,No Immediate Action Required,Low,Ankur Gupta
+Lekopi Majule Women Producer Co,Delhi,Promising,18.03.2024,184000,Visit today,Medium,Karthik Singh
+ADP Processed Foods,Surat,Promising,14.03.2024,128000,No Immediate Action Required,Low,Mahesh Prajapati
+RSDK Snacks,Baroda,Others,08.03.2024,153000,No Immediate Action Required,Low,Prachi Singh
+Biscuit Manufacturing Co,Bhilwara,Others,24.03.2024,663000,No Immediate Action Required,Low,Apoorv Kumar
+Ramandeep Bakery,Surat,Core,12.03.2024,206000,"High value order not met, follow up immediately",High,HO
+Sai Balaji Food Corp,Mumbai,Loyal,02.03.2024,302000,"High value order not met, follow up immediately",High,HO
+Krimy Biscuit & Chemicals Industries,Surat,Core,14.03.2024,303000,"High value order not met, follow up immediately",High,HO
+International Engg Products,Mumbai,Promising,15.03.2024,132000,No Immediate Action Required,Low,Abhishek Mishra
+Carry Power Enterprises,Baroda,Promising,11.03.2024,212000,No Immediate Action Required,Low,Apoorv Kumar
+Plasto Metal Industries,Bhilwara,Core,19.03.2024,307000,Visit today,High,Karthik Singh
+Kadak Family Tea Enterprises,Kandla,Others,13.04.2024,0,No Immediate Action Required,Low,Karthik Singh
+Kunafa Pvt Ltd,Baroda,Others,27.02.2024,319000,No Immediate Action Required,Low,Mahesh Prajapati
+Shree Nainar Mills Pvt Ltd,Kandla,Others,24.03.2024,548000,No Immediate Action Required,Low,Karthik Singh
+BTW India Pvt Ltd,Mumbai,Others,26.03.2024,0,No Immediate Action Required,Low,Rohit Singh
+Radaang Food & Drinks Ltd,Delhi,Others,20.03.2024,103000,No Immediate Action Required,Low,Prachi Singh
+S&M Impex,Sirohi,Others,25.03.2024,0,No Immediate Action Required,Low,Rohit Singh
+Megha Bakery,Kandla,Core,17.03.2024,397000,"High value order not met, follow up immediately",High,HO
+Yaiphakon Enterprises,Sirohi,Others,05.04.2024,0,No Immediate Action Required,Low,Apoorv Kumar
+Nandani F&B,Baroda,Others,19.03.2024,0,No Immediate Action Required,Low,Ankur Gupta
+GP Foods,Chittorgarh,Promising,12.03.2024,255000,No Immediate Action Required,Low,Mahesh Prajapati
+Shiv Enterprise,Mumbai,Others,20.03.2024,0,No Immediate Action Required,Low,Kavitha Gupta
+Tasty Cakery,Mumbai,Others,11.03.2024,268000,No Immediate Action Required,Low,Apoorv Kumar
+Lakshmi Venkateshwara Sweets & Bakes,Chittorgarh,Promising,03.03.2024,281000,No Immediate Action Required,Low,Sneha Mehta
+Satish Verma & Associates,Bhilwara,Others,24.03.2024,107000,No Immediate Action Required,Low,Sneha Mehta
+Ajay Foods,Delhi,Loyal,04.03.2024,254000,"High value order not met, follow up immediately",High,HO
+Deepak F&B Pvt Ltd,Kandla,Others,19.03.2024,505000,Visit today,Medium,Sneha Mehta
+Vinod Bakery,Sirohi,Others,24.03.2024,758000,No Immediate Action Required,Low,Kavitha Gupta
+Deshmukh Hospitality,Chittorgarh,Promising,14.03.2024,346000,No Immediate Action Required,Low,Prachi Singh
+Gaurav Sweets & Bakery,Bhilwara,Others,31.03.2024,205000,No Immediate Action Required,Low,Kavitha Gupta
+Sachin Saxena,Bhilwara,Others,23.03.2024,258000,No Immediate Action Required,Low,Karthik Singh
+Reddy Foods,Bhilwara,Others,16.03.2024,290000,No Immediate Action Required,Low,Ankur Gupta
+Rastogi Products,Mumbai,Others,20.03.2024,158000,No Immediate Action Required,Low,Apoorv Kumar
+Gupta Snacks,Chittorgarh,Loyal,11.03.2024,256000,"High value order not met, follow up immediately",High,HO
+Trivedi Food Processors,Mumbai,Whale,19.03.2024,327000,Visit today,High,Karthik Singh
+Arjun Bakers,Mumbai,Others,14.03.2024,186000,No Immediate Action Required,Low,Kavitha Gupta
+Anupam Bakery,Kandla,Loyal,05.03.2024,324000,"High value order not met, follow up immediately",High,HO
+Mahajan Food & Drinks Ltd,Mumbai,Others,24.03.2024,482000,No Immediate Action Required,Low,Abhinav Mishra
+Anil Verma Enterprises,Baroda,Others,22.03.2024,330000,No Immediate Action Required,Low,Rahul Singh
+Bhatnagar Cakes & Bakery,Surat,Others,15.03.2024,141000,No Immediate Action Required,Low,Abhishek Mishra
+Rajendra Singhania & Associates,Surat,Others,10.03.2024,241000,No Immediate Action Required,Low,Karthik Singh
+Prasad Foods,Delhi,Others,24.03.2024,3000,No Immediate Action Required,Low,Sneha Mehta
+Joshi Snacks & Beverages,Kandla,Others,12.03.2024,256000,No Immediate Action Required,Low,Rohit Singh
+Vikas Bakers,Delhi,Others,29.03.2024,0,No Immediate Action Required,Low,Rahul Singh
+Mamta Sethi,Surat,Others,17.03.2024,113000,No Immediate Action Required,Low,Rahul Singh
+Arvind Foods,Delhi,Others,10.03.2024,420000,No Immediate Action Required,Low,Siddharth Gupta
+Agarwal F&B,Delhi,Loyal,03.03.2024,354000,"High value order not met, follow up immediately",High,HO
+Shankar Enterprises,Bhilwara,Others,21.03.2024,0,No Immediate Action Required,Low,Prachi Singh
+Chandra Bakery,Surat,Others,22.03.2024,139000,No Immediate Action Required,Low,Mahesh Prajapati
+Malhotra Enterprises,Surat,Others,15.03.2024,313000,No Immediate Action Required,Low,Rohit Singh
+Mohan Food & Beverages,Baroda,Core,18.03.2024,230000,Visit today,High,Prachi Singh
+Rawat Hospitality,Delhi,Others,22.03.2024,200000,No Immediate Action Required,Low,Ankur Gupta
+Yogesh Sharma & Associates,Delhi,Promising,04.03.2024,245000,No Immediate Action Required,Low,Abhishek Mishra
+Dinesh Mukherjee Enterprises,Sirohi,Others,23.03.2024,106000,No Immediate Action Required,Low,Rohit Singh
+Pramod Singh,Mumbai,Others,14.03.2024,418000,No Immediate Action Required,Low,Kavitha Gupta
+Kapoor F&B Pvt Ltd,Baroda,Core,14.03.2024,305000,"High value order not met, follow up immediately",High,HO
+Anoop Sharma & Associates,Delhi,Others,04.04.2024,0,No Immediate Action Required,Low,Siddharth Gupta
+Suresh Sharma Enterprises,Chittorgarh,Core,17.03.2024,551000,"High value order not met, follow up immediately",High,HO
+Sinha Bakery,Surat,Others,01.04.2024,381000,No Immediate Action Required,Low,Prachi Singh
+Vyas Baking Company,Bhilwara,Others,04.03.2024,279000,No Immediate Action Required,Low,Karthik Singh
+Saxena Enterprises,Sirohi,Others,19.03.2024,359000,Visit today,Medium,Abhishek Mishra
+Khanna Snacks,Kandla,Others,23.03.2024,0,No Immediate Action Required,Low,Siddharth Gupta
+Vivek Khanna,Surat,Others,29.03.2024,0,No Immediate Action Required,Low,Karthik Singh
+Mehrotra Food Products,Delhi,Others,14.03.2024,0,No Immediate Action Required,Low,Abhinav Mishra
+Prakash Singh Bakery,Bhilwara,Others,08.04.2024,0,No Immediate Action Required,Low,Siddharth Gupta
+Dutt Cakery,Bhilwara,Whale,17.03.2024,964000,"High value order not met, follow up immediately",High,HO
+Agrawal Foods,Surat,Loyal,07.03.2024,254000,"High value order not met, follow up immediately",High,HO
+Ajay Srivastava Enterprises,Bhilwara,Others,19.03.2024,174000,Visit today,Medium,Apoorv Kumar
+Harish Sethi & Co,Delhi,Promising,24.02.2024,249000,No Immediate Action Required,Low,Rahul Singh
+Goyal Food Processors,Mumbai,Core,19.03.2024,428000,Visit today,High,Apoorv Kumar
+Nitin Tiwari & Co,Sirohi,Others,10.04.2024,0,No Immediate Action Required,Low,Abhinav Mishra
+Mehra Food Products,Baroda,Promising,17.03.2024,123000,No Immediate Action Required,Low,Mahesh Prajapati
+Surya Prakash Bakery,Bhilwara,Others,16.03.2024,282000,No Immediate Action Required,Low,Siddharth Gupta
+Agarwal & Sons,Surat,Promising,20.03.2024,0,No Immediate Action Required,Low,Prachi Singh
+Khatri Food Processing Co,Mumbai,Others,26.03.2024,0,No Immediate Action Required,Low,Karthik Singh
+Gupta Products,Kandla,Others,16.03.2024,500000,No Immediate Action Required,Low,Rohit Singh
+Ritu Mehra Bakers,Chittorgarh,Others,19.03.2024,354000,Visit today,Medium,Kavitha Gupta
+Mehra Foods,Delhi,Others,21.03.2024,551000,No Immediate Action Required,Low,Rohit Singh
+Banerjee Sweets & Bakery,Sirohi,Others,28.03.2024,0,No Immediate Action Required,Low,Rohit Singh
+Anita Maheshwari,Chittorgarh,Core,19.03.2024,453000,Visit today,High,Apoorv Kumar
