@@ -34,12 +34,6 @@ if selected_salesperson != "All":
 if selected_location != "All":
     df_today = df_today[df_today["Location"] == selected_location]
 
-# Reset button
-if st.sidebar.button("Reset Table"):
-    selected_salesperson = "All"
-    selected_location = "All"
-    df_today = df[df["Expected Order Date"].dt.date == today]
-
 # Display the table
 st.title("List of Customers to be Visited Today")
 st.write(df_today[["Customer", "Location", "Segment", "Expected Order Date", "Expected Order Value", "Recommended Action", "Priority", "Assigned to"]])
