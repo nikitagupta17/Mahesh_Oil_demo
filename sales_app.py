@@ -14,34 +14,32 @@ df = load_data()
 # Get today's date
 today = datetime.today().date()
 
-# Filter the data for today's date
-df_today = df[df["Expected Order Date"].dt.date == today]
-
-# Sort the data by Expected Order Value
-sorted_df_today = df_today.sort_values(by="Expected Order Value", ascending=False)
-
-# Display the list of customers to be visited today
-st.title("List of Customers to be Visited Today")
-st.write(sorted_df_today[["Customer", "Location", "Segment", "Expected Order Date", "Expected Order Value", "Recommended Action", "Priority", "Assigned to"]])
-
 # Sidebar filters
 st.sidebar.title("Filters")
 
 # Filter by Salesperson
-selected_salesperson = st.sidebar.selectbox("Select Salesperson", df["Assigned to"].unique())
+salespeople = ["All"] + list(df["Assigned to"].unique())
+selected_salesperson = st.sidebar.selectbox("Select Salesperson", salespeople)
 
 # Filter by Location
-selected_location = st.sidebar.selectbox("Select Location", df["Location"].unique())
+locations = ["All"] + list(df["Location"].unique())
+selected_location = st.sidebar.selectbox("Select Location", locations)
+
+# Filter the data for today's date
+df_today = df[df["Expected Order Date"].dt.date == today]
 
 # Apply filters for location and salesperson
-filtered_df = df[(df["Location"] == selected_location) & (df["Assigned to"] == selected_salesperson)]
+if selected_salesperson != "All":
+    df_today = df_today[df_today["Assigned to"] == selected_salesperson]
+if selected_location != "All":
+    df_today = df_today[df_today["Location"] == selected_location]
 
-# Filter the data for today's date after applying salesperson and location filters
-filtered_df_today = filtered_df[filtered_df["Expected Order Date"].dt.date == today]
+# Reset button
+if st.sidebar.button("Reset Table"):
+    selected_salesperson = "All"
+    selected_location = "All"
+    df_today = df[df["Expected Order Date"].dt.date == today]
 
-# Sort the filtered dataframe by Expected Order Value
-sorted_filtered_df_today = filtered_df_today.sort_values(by="Expected Order Value", ascending=False)
-
-# Display the sorted list of customers based on location and salesperson for today
-st.title("Filtered List based on Location and Salesperson for Today")
-st.write(sorted_filtered_df_today[["Customer", "Location", "Segment", "Expected Order Date", "Expected Order Value", "Recommended Action", "Priority", "Assigned to"]])
+# Display the table
+st.title("List of Customers to be Visited Today")
+st.write(df_today[["Customer", "Location", "Segment", "Expected Order Date", "Expected Order Value", "Recommended Action", "Priority", "Assigned to"]])
