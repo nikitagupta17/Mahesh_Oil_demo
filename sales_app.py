@@ -12,10 +12,9 @@ def load_data():
 def main():
     st.set_page_config(page_title="Sales Dashboard", page_icon=":chart_with_upwards_trend:")
     
-    # Display IBM logo on the right using columns
-    col1, col2 = st.columns([3, 1])  # Adjust the ratio as needed
-    with col1:
-        st.image("ibm_logo.png", width=80, use_column_width=False)
+    # Display IBM logo on the right using columns in sidebar
+    sidebar_col1, sidebar_col2 = st.sidebar.columns([3, 1])  # Adjust the ratio as needed
+    sidebar_col2.image("ibm_logo.png", width=80, use_column_width=False)
     
     st.sidebar.image("mahesh_oil_logo.png", width=200, use_column_width=False)
     
