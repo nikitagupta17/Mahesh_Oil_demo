@@ -42,7 +42,7 @@ def main():
     df_filtered = df_filtered[df_filtered["Expected Order Date"] == selected_date]
 
     st.title("Sales Dashboard")
-    st.write("### List of Customers to be Visited Today")
+    st.write("### List of Customers to be Visited")
 
     if not df_filtered.empty:
         # Replace "Expected Order Value(Rs)" with "Expected Order Value(₹)"
