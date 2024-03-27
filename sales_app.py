@@ -5,7 +5,7 @@ from datetime import datetime
 # Load the dataset
 @st.cache(allow_output_mutation=True)
 def load_data():
-    df = pd.read_csv("Sales_data_v4.csv")
+    df = pd.read_excel("sales_data_v6.xlsx")
     df["Expected Order Date"] = pd.to_datetime(df["Expected Order Date"]).dt.date  # Convert to date only
     return df
 
@@ -15,7 +15,6 @@ def main():
 
     st.sidebar.image("mahesh_oil_logo.png", width=200, use_column_width=False)
     
-
     df = load_data()
 
     # Sidebar filters
@@ -36,11 +35,23 @@ def main():
         df_filtered = df_filtered[df_filtered["Location"] == selected_location]
     df_filtered = df_filtered[df_filtered["Expected Order Date"] == selected_date]
 
+    # Sort by "Expected Order Value" column in decreasing order
+    df_filtered = df_filtered.sort_values(by="Expected Order Value(Rs)", ascending=False)
+
     st.title("Sales Dashboard")
     st.write("### List of Customers to be Visited Today")
 
     if not df_filtered.empty:
-        st.write(df_filtered.set_index("Customer").style.set_properties(**{'text-align': 'center'}))
+        st.write(
+            df_filtered.set_index("Customer")
+            .style
+            .set_properties(**{'text-align': 'center'})
+            .set_table_styles([
+                dict(selector="th", props=[("text-align", "center")]),
+                dict(selector="td", props=[("text-align", "center")]),
+                dict(selector=".col2", props=[("text-align", "left")])  # Left-align Expected Order Value column
+            ])
+        )
     else:
         st.write("No records found for the selected filters.")
 
