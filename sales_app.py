@@ -12,12 +12,6 @@ def load_data():
 def main():
     st.set_page_config(page_title="Sales Dashboard", page_icon=":chart_with_upwards_trend:")
     
-    # Display IBM logo on the right using columns in sidebar
-    sidebar_col1, sidebar_col2 = st.sidebar.columns([3, 1])  # Adjust the ratio as needed
-    sidebar_col2.image("ibm_logo.png", width=80, use_column_width=False)
-    
-    st.sidebar.image("mahesh_oil_logo.png", width=200, use_column_width=False)
-    
     df = load_data()
 
     # Sidebar filters
@@ -41,15 +35,21 @@ def main():
         df_filtered = df_filtered[df_filtered["Location"] == selected_location]
     df_filtered = df_filtered[df_filtered["Expected Order Date"] == selected_date]
 
+    # Display the table and IBM logo
     st.title("Sales Dashboard")
+    
+    # Display the table
     st.write("### List of Customers to be Visited")
-
     if not df_filtered.empty:
         # Replace "Expected Order Value(Rs)" with "Expected Order Value(₹)"
         df_filtered.rename(columns={"Expected Order Value(Rs)": "Expected Order Value(₹)"}, inplace=True)
         st.dataframe(df_filtered.set_index("Customer").style.set_properties(subset=["Expected Order Value(₹)"], **{'text-align': 'left'}))
     else:
         st.write("No records found for the selected filters.")
+    
+    # Display IBM logo to the right of the table
+    col1, col2, col3 = st.columns([1, 6, 1])
+    col2.image("ibm_logo.png", width=80, use_column_width=False)
 
 if __name__ == "__main__":
     main()
