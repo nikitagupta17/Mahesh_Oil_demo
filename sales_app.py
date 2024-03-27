@@ -5,8 +5,8 @@ from datetime import datetime
 # Load the dataset
 @st.cache(allow_output_mutation=True)
 def load_data():
-    df = pd.read_csv("sales_data_v6.csv")  # Change to read_excel
-    df["Expected Order Date"] = pd.to_datetime(df["Expected Order Date"]).dt.date  # Convert to date only
+    df = pd.read_csv("sales_data_v7.csv")
+    df["Expected Order Date"] = pd.to_datetime(df["Expected Order Date"], format='%d.%m.%Y').dt.date  # Adjust date format
     return df
 
 def main():
