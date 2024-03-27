@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from datetime import datetime
+from datetime import datetime, timedelta
 
 # Load the dataset
 @st.cache(allow_output_mutation=True)
@@ -29,7 +29,9 @@ def main():
 
     # Set up date range for the date input
     today = datetime.today().date()
-    selected_date = st.sidebar.date_input("Expected Order Date", today)
+    min_date = datetime(2024, 4, 5).date()
+    max_date = (min_date + timedelta(days=365))  # 1 year from April 5th, 2024
+    selected_date = st.sidebar.date_input("Expected Order Date", min_value=min_date, max_value=max_date, value=min_date)
 
     # Filter the data
     df_filtered = df.copy()
