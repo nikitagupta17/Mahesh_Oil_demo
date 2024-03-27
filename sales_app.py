@@ -29,8 +29,7 @@ def main():
     # Set up date range for the date input
     today = datetime.today().date()
     min_date = datetime(2024, 4, 5).date()  # Minimum selectable date
-    max_date = today  # Maximum selectable date
-    selected_date = st.sidebar.date_input("Expected Order Date", min_date, min_value=min_date, max_value=max_date)
+    selected_date = st.sidebar.date_input("Expected Order Date", min_date)
 
     # Filter the data
     df_filtered = df.copy()
