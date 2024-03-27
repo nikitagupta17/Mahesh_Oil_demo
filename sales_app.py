@@ -5,35 +5,44 @@ from datetime import datetime
 # Load the dataset
 @st.cache(allow_output_mutation=True)
 def load_data():
-    df = pd.read_csv("sales_data2.csv")
-    df["Expected Order Date"] = pd.to_datetime(df["Expected Order Date"])  # Convert to datetime
+    df = pd.read_csv("sales_data_v3.csv")
+    df["Expected Order Date"] = pd.to_datetime(df["Expected Order Date"]).dt.date  # Convert to date only
     return df
 
-df = load_data()
+def main():
+    st.set_page_config(page_title="Sales Dashboard", page_icon=":chart_with_upwards_trend:")
+    st.image("ibm_logo.png", width=80, use_column_width=False)
 
-# Get today's date
-today = datetime.today().date()
+    st.sidebar.image("mahesh_oil_logo.png", width=200, use_column_width=False)
+    
 
-# Sidebar filters
-st.sidebar.title("Filters")
+    df = load_data()
 
-# Filter by Salesperson
-salespeople = ["All"] + list(df["Assigned to"].unique())
-selected_salesperson = st.sidebar.selectbox("Select Salesperson", salespeople)
+    # Sidebar filters
+    salespeople = ["All"] + list(df["Assigned to"].unique())
+    selected_salesperson = st.sidebar.selectbox("Salesperson", salespeople)
 
-# Filter by Location
-locations = ["All"] + list(df["Location"].unique())
-selected_location = st.sidebar.selectbox("Select Location", locations)
+    locations = ["All"] + list(df["Location"].unique())
+    selected_location = st.sidebar.selectbox("Location", locations)
 
-# Filter the data for today's date
-df_today = df[df["Expected Order Date"].dt.date == today]
+    today = datetime.today().date()
+    selected_date = st.sidebar.date_input("Expected Order Date", today)
 
-# Apply filters for location and salesperson
-if selected_salesperson != "All":
-    df_today = df_today[df_today["Assigned to"] == selected_salesperson]
-if selected_location != "All":
-    df_today = df_today[df_today["Location"] == selected_location]
+    # Filter the data
+    df_filtered = df.copy()
+    if selected_salesperson != "All":
+        df_filtered = df_filtered[df_filtered["Assigned to"] == selected_salesperson]
+    if selected_location != "All":
+        df_filtered = df_filtered[df_filtered["Location"] == selected_location]
+    df_filtered = df_filtered[df_filtered["Expected Order Date"] == selected_date]
 
-# Display the table
-st.title("List of Customers to be Visited Today")
-st.write(df_today[["Customer", "Location", "Segment", "Expected Order Date", "Expected Order Value", "Recommended Action", "Priority", "Assigned to"]])
+    st.title("Sales Dashboard")
+    st.write("### List of Customers to be Visited Today")
+
+    if not df_filtered.empty:
+        st.write(df_filtered.set_index("Customer").style.set_properties(**{'text-align': 'center'}))
+    else:
+        st.write("No records found for the selected filters.")
+
+if __name__ == "__main__":
+    main()
