@@ -5,7 +5,7 @@ from datetime import datetime
 # Load the dataset
 @st.cache(allow_output_mutation=True)
 def load_data():
-    df = pd.read_csv("sales_data_v4.csv")
+    df = pd.read_csv("Sales_data_v4.csv")
     df["Expected Order Date"] = pd.to_datetime(df["Expected Order Date"]).dt.date  # Convert to date only
     return df
 
