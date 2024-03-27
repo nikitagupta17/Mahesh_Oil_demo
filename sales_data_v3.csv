@@ -1,0 +1,92 @@
+Customer,Location,Segment,Expected Order Date,Expected Order Value(Rs),Recommended Action,Priority,Assigned to
+Mukharochak,Delhi,Loyal,17.03.2024,280000,"High value order not met, follow up immediately",High,HO
+J S Foods,Surat,Loyal,16.03.2024,372000,"High value order not met, follow up immediately",High,HO
+Seema Hospitality,Mumbai,Loyal,05.03.2024,269000,"High value order not met, follow up immediately",High,HO
+Devpur Krushi Farmers,Mumbai,Promising,15.03.2024,255000,No Immediate Action Required,Low,Karthik Singh
+SGP Food Manufacturers,Mumbai,Loyal,09.03.2024,275000,"High value order not met, follow up immediately",High,HO
+Southern Gourmet Bites,Surat,Promising,18.03.2024,0,No Immediate Action Required,Low,Siddharth Gupta
+Homestyle Foods,Surat,Loyal,16.03.2024,277000,"High value order not met, follow up immediately",High,HO
+Amandeep Kaur,Delhi,Promising,18.03.2024,266000,No Immediate Action Required,Low,Apoorv Kumar
+Handuja Bakers Pvt Ltd,Surat,Promising,18.03.2024,206000,No Immediate Action Required,Low,Kavitha Gupta
+The Snack Company,Delhi,Loyal,15.03.2024,235000,"High value order not met, follow up immediately",High,HO
+Ajanta Products,Mumbai,Promising,17.03.2024,333000,No Immediate Action Required,Low,Karthik Singh
+USF Food & Allied Products,Delhi,Loyal,14.03.2024,305000,"High value order not met, follow up immediately",High,HO
+Lekopi Majule Women Producer Co,Delhi,Promising,17.03.2024,312000,No Immediate Action Required,Low,Apoorv Kumar
+ADP Processed Foods,Surat,Loyal,16.03.2024,241000,"High value order not met, follow up immediately",High,HO
+RSDK Snacks,Surat,Promising,04.03.2024,282000,No Immediate Action Required,Low,Siddharth Gupta
+Biscuit Manufacturing Co,Surat,Others,17.03.2024,509000,No Immediate Action Required,Low,Kavitha Gupta
+Ramandeep Bakery,Delhi,Loyal,11.03.2024,183000,"High value order not met, follow up immediately",High,HO
+Sai Balaji Food Corp,Surat,Loyal,29.02.2024,289000,"High value order not met, follow up immediately",High,HO
+Krimy Biscuit & Chemicals Industries,Surat,Loyal,14.03.2024,275000,"High value order not met, follow up immediately",High,HO
+International Engg Products,Surat,Promising,16.03.2024,158000,No Immediate Action Required,Low,Siddharth Gupta
+Carry Power Enterprises,Delhi,Loyal,14.03.2024,189000,"High value order not met, follow up immediately",High,HO
+Plasto Metal Industries,Mumbai,Loyal,17.03.2024,273000,"High value order not met, follow up immediately",High,HO
+Kadak Family Tea Enterprises,Mumbai,Promising,19.03.2024,154000,No Immediate Action Required,Low,Abhinav Mishra
+Kunafa Pvt Ltd,Surat,Promising,18.03.2024,392000,No Immediate Action Required,Low,Kavitha Gupta
+Shree Nainar Mills Pvt Ltd,Surat,Promising,19.03.2024,0,No Immediate Action Required,Low,Kavitha Gupta
+BTW India Pvt Ltd,Delhi,Others,22.03.2024,0,No Immediate Action Required,Low,Apoorv Kumar
+Radaang Food & Drinks Ltd,Surat,Loyal,15.03.2024,221000,"High value order not met, follow up immediately",High,HO
+S&M Impex,Mumbai,Others,20.03.2024,0,No Immediate Action Required,Low,Abhinav Mishra
+Megha Bakery,Surat,Loyal,14.03.2024,457000,"High value order not met, follow up immediately",High,HO
+Yaiphakon Enterprises,Delhi,Loyal,09.03.2024,320000,"High value order not met, follow up immediately",High,HO
+Nandani F&B,Surat,Loyal,16.03.2024,310000,"High value order not met, follow up immediately",High,HO
+GP Foods,Mumbai,Loyal,10.03.2024,383000,"High value order not met, follow up immediately",High,HO
+Shiv Enterprise,Surat,Others,21.03.2024,0,No Immediate Action Required,Low,Siddharth Gupta
+Tasty Cakery,Mumbai,Loyal,07.03.2024,264000,"High value order not met, follow up immediately",High,HO
+Lakshmi Venkateshwara Sweets & Bakes,Mumbai,Loyal,09.03.2024,333000,"High value order not met, follow up immediately",High,HO
+Satish Verma & Associates,Surat,Promising,20.03.2024,302000,No Immediate Action Required,Low,Kavitha Gupta
+Ajay Foods,Delhi,Loyal,09.03.2024,260000,"High value order not met, follow up immediately",High,HO
+Deepak F&B Pvt Ltd,Mumbai,Promising,16.03.2024,752000,No Immediate Action Required,Low,Karthik Singh
+Vinod Bakery,Surat,Loyal,17.03.2024,342000,"High value order not met, follow up immediately",High,HO
+Deshmukh Hospitality,Surat,Loyal,11.03.2024,269000,"High value order not met, follow up immediately",High,HO
+Gaurav Sweets & Bakery,Delhi,Others,09.03.2024,411000,No Immediate Action Required,Low,Apoorv Kumar
+Sachin Saxena,Mumbai,Promising,18.03.2024,416000,No Immediate Action Required,Low,Karthik Singh
+Reddy Foods,Mumbai,Loyal,12.03.2024,317000,"High value order not met, follow up immediately",High,HO
+Rastogi Products,Surat,Promising,15.03.2024,229000,No Immediate Action Required,Low,Siddharth Gupta
+Gupta Snacks,Surat,Loyal,15.03.2024,465000,"High value order not met, follow up immediately",High,HO
+Trivedi Food Processors,Mumbai,Loyal,16.03.2024,289000,"High value order not met, follow up immediately",High,HO
+Arjun Bakers,Delhi,Promising,17.03.2024,211000,No Immediate Action Required,Low,Apoorv Kumar
+Anupam Bakery,Surat,Loyal,11.03.2024,322000,"High value order not met, follow up immediately",High,HO
+Mahajan Food & Drinks Ltd,Delhi,Promising,19.03.2024,0,No Immediate Action Required,Low,Apoorv Kumar
+Anil Verma Enterprises,Surat,Promising,18.03.2024,364000,No Immediate Action Required,Low,Siddharth Gupta
+Bhatnagar Cakes & Bakery,Mumbai,Promising,17.03.2024,323000,No Immediate Action Required,Low,Karthik Singh
+Rajendra Singhania & Associates,Surat,Loyal,07.03.2024,277000,"High value order not met, follow up immediately",High,HO
+Prasad Foods,Mumbai,Promising,17.03.2024,176000,No Immediate Action Required,Low,Karthik Singh
+Joshi Snacks & Beverages,Surat,Promising,15.03.2024,204000,No Immediate Action Required,Low,Kavitha Gupta
+Vikas Bakers,Delhi,Loyal,18.03.2024,206000,"High value order not met, follow up immediately",High,HO
+Mamta Sethi,Delhi,Loyal,17.03.2024,328000,"High value order not met, follow up immediately",High,HO
+Arvind Foods,Delhi,Loyal,10.03.2024,404000,"High value order not met, follow up immediately",High,HO
+Agarwal F&B,Surat,Loyal,10.03.2024,326000,"High value order not met, follow up immediately",High,HO
+Shankar Enterprises,Surat,Loyal,14.03.2024,222000,"High value order not met, follow up immediately",High,HO
+Chandra Bakery,Surat,Loyal,15.03.2024,310000,"High value order not met, follow up immediately",High,HO
+Malhotra Enterprises,Delhi,Promising,17.03.2024,136000,No Immediate Action Required,Low,Apoorv Kumar
+Mohan Food & Beverages,Mumbai,Loyal,16.03.2024,193000,"High value order not met, follow up immediately",High,HO
+Rawat Hospitality,Surat,Promising,17.03.2024,224000,No Immediate Action Required,Low,Siddharth Gupta
+Yogesh Sharma & Associates,Surat,Promising,17.03.2024,272000,No Immediate Action Required,Low,Kavitha Gupta
+Dinesh Mukherjee Enterprises,Surat,Promising,13.03.2024,286000,No Immediate Action Required,Low,Kavitha Gupta
+Pramod Singh,Surat,Promising,19.03.2024,0,No Immediate Action Required,Low,Siddharth Gupta
+Kapoor F&B Pvt Ltd,Delhi,Loyal,14.03.2024,296000,"High value order not met, follow up immediately",High,HO
+Anoop Sharma & Associates,Delhi,Others,13.03.2024,130000,No Immediate Action Required,Low,Apoorv Kumar
+Suresh Sharma Enterprises,Surat,Loyal,14.03.2024,380000,"High value order not met, follow up immediately",High,HO
+Sinha Bakery,Mumbai,Loyal,16.03.2024,341000,"High value order not met, follow up immediately",High,HO
+Vyas Baking Company,Surat,Promising,12.03.2024,294000,No Immediate Action Required,Low,Kavitha Gupta
+Saxena Enterprises,Delhi,Promising,14.03.2024,409000,No Immediate Action Required,Low,Apoorv Kumar
+Khanna Snacks,Surat,Others,20.03.2024,0,No Immediate Action Required,Low,Siddharth Gupta
+Vivek Khanna,Delhi,Others,22.03.2024,0,No Immediate Action Required,Low,Apoorv Kumar
+Mehrotra Food Products,Mumbai,Promising,09.03.2024,239000,No Immediate Action Required,Low,Karthik Singh
+Prakash Singh Bakery,Delhi,Promising,13.03.2024,155000,No Immediate Action Required,Low,Apoorv Kumar
+Dutt Cakery,Surat,Loyal,16.03.2024,1301000,"High value order not met, follow up immediately",High,HO
+Agrawal Foods,Surat,Loyal,14.03.2024,284000,"High value order not met, follow up immediately",High,HO
+Ajay Srivastava Enterprises,Surat,Promising,15.03.2024,232000,No Immediate Action Required,Low,Kavitha Gupta
+Harish Sethi & Co,Mumbai,Loyal,08.03.2024,344000,"High value order not met, follow up immediately",High,HO
+Goyal Food Processors,Surat,Loyal,18.03.2024,312000,"High value order not met, follow up immediately",High,HO
+Nitin Tiwari & Co,Mumbai,Promising,17.03.2024,31000,No Immediate Action Required,Low,Abhinav Mishra
+Mehra Food Products,Delhi,Loyal,14.03.2024,227000,"High value order not met, follow up immediately",High,HO
+Surya Prakash Bakery,Mumbai,Promising,12.03.2024,230000,No Immediate Action Required,Low,Karthik Singh
+Agarwal & Sons,Mumbai,Promising,18.03.2024,214000,No Immediate Action Required,Low,Karthik Singh
+Khatri Food Processing Co,Mumbai,Promising,18.03.2024,0,No Immediate Action Required,Low,Abhinav Mishra
+Gupta Products,Delhi,Promising,11.03.2024,270000,No Immediate Action Required,Low,Apoorv Kumar
+Ritu Mehra Bakers,Mumbai,Promising,18.03.2024,0,No Immediate Action Required,Low,Abhinav Mishra
+Mehra Foods,Delhi,Loyal,17.03.2024,447000,"High value order not met, follow up immediately",High,HO
+Banerjee Sweets & Bakery,Mumbai,Promising,18.03.2024,0,No Immediate Action Required,Low,Abhinav Mishra
+Anita Maheshwari,Surat,Loyal,18.03.2024,1154000,"High value order not met, follow up immediately",High,HO
