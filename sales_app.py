@@ -14,7 +14,8 @@ def main():
     
     # Display IBM logo on the right using columns
     col1, col2 = st.columns([3, 1])  # Adjust the ratio as needed
-    col1.image("ibm_logo.png", width=80, use_column_width=False)
+    with col1:
+        st.image("ibm_logo.png", width=80, use_column_width=False)
     
     st.sidebar.image("mahesh_oil_logo.png", width=200, use_column_width=False)
     
