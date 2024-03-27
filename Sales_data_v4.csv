@@ -1,0 +1,155 @@
+Customer,Location,Segment,Expected Order Date,Expected Order Value(Rs),Priority,Assigned to
+Mukharochak,Delhi,Core,08.04.2024,350000,Low,Karthik Singh
+J S Foods,Mumbai,Core,04.04.2024,324000,High,HO
+Seema Hospitality,Delhi,Core,04.04.2024,274000,High,HO
+Devpur Krushi Farmers,Delhi,Core,07.04.2024,233000,Low,Karthik Singh
+SGP Food Manufacturers,Surat,Core,03.04.2024,257000,High,HO
+Southern Gourmet Bites,Mumbai,Loyal,02.04.2024,290000,High,HO
+Homestyle Foods,Mumbai,Loyal,01.04.2024,265000,High,HO
+Amandeep Kaur,Delhi,Loyal,27.03.2024,247000,High,HO
+Handuja Bakers Pvt Ltd,Mumbai,Core,03.04.2024,266000,High,HO
+The Snack Company,Mumbai,Loyal,24.03.2024,367000,High,HO
+Ajanta Products,Delhi,Promising,05.04.2024,199000,Medium,Karthik Singh
+USF Food & Allied Products,Surat,Core,09.04.2024,279000,Low,Siddharth Gupta
+Lekopi Majule Women Producer Co,Surat,Core,04.04.2024,346000,High,HO
+ADP Processed Foods,Surat,Loyal,01.04.2024,314000,High,HO
+RSDK Snacks,Delhi,Others,13.04.2024,46000,Low,Karthik Singh
+Biscuit Manufacturing Co,Surat,Core,03.04.2024,243000,High,HO
+Ramandeep Bakery,Delhi,Others,07.04.2024,262000,Low,Karthik Singh
+Sai Balaji Food Corp,Mumbai,Core,06.04.2024,306000,High,Abhinav Mishra
+Krimy Biscuit & Chemicals Industries,Mumbai,Others,24.03.2024,210000,Low,Abhinav Mishra
+International Engg Products,Surat,Promising,04.04.2024,333000,Low,Siddharth Gupta
+Carry Power Enterprises,Mumbai,Loyal,28.03.2024,273000,High,HO
+Plasto Metal Industries,Mumbai,Core,05.04.2024,316000,High,Abhinav Mishra
+Kadak Family Tea Enterprises,Delhi,Core,06.04.2024,370000,High,Karthik Singh
+Kunafa Pvt Ltd,Delhi,Core,05.04.2024,323000,High,Karthik Singh
+Shree Nainar Mills Pvt Ltd,Mumbai,Loyal,29.03.2024,189000,High,HO
+BTW India Pvt Ltd,Delhi,Loyal,01.04.2024,303000,High,HO
+Radaang Food & Drinks Ltd,Mumbai,Core,03.04.2024,206000,High,HO
+S&M Impex,Surat,Core,08.04.2024,220000,Low,Siddharth Gupta
+Megha Bakery,Mumbai,Loyal,31.03.2024,310000,High,HO
+Yaiphakon Enterprises,Surat,Others,11.04.2024,258000,Low,Siddharth Gupta
+Nandani F&B,Delhi,Core,08.04.2024,254000,Low,Karthik Singh
+GP Foods,Delhi,Core,08.04.2024,336000,Low,Karthik Singh
+Shiv Enterprise,Surat,Core,06.04.2024,315000,High,Siddharth Gupta
+Tasty Cakery,Surat,Core,05.04.2024,333000,High,Siddharth Gupta
+Lakshmi Venkateshwara Sweets & Bakes,Mumbai,Core,07.04.2024,297000,Low,Abhinav Mishra
+Satish Verma & Associates,Surat,Loyal,27.03.2024,259000,High,HO
+Ajay Foods,Delhi,Loyal,31.03.2024,288000,High,HO
+Deepak F&B Pvt Ltd,Mumbai,Core,05.04.2024,282000,High,Abhinav Mishra
+Vinod Bakery,Mumbai,Loyal,02.04.2024,267000,High,HO
+Deshmukh Hospitality,Mumbai,Core,07.04.2024,244000,Low,Abhinav Mishra
+Gaurav Sweets & Bakery,Surat,Loyal,30.03.2024,303000,High,HO
+Sachin Saxena,Surat,Core,03.04.2024,185000,High,HO
+Reddy Foods,Mumbai,Core,02.04.2024,297000,High,HO
+Rastogi Products,Delhi,Others,21.03.2024,246000,Low,Karthik Singh
+Gupta Snacks,Surat,Core,07.04.2024,443000,Low,Siddharth Gupta
+Trivedi Food Processors,Delhi,Core,07.04.2024,301000,Low,Karthik Singh
+Arjun Bakers,Mumbai,Loyal,30.03.2024,195000,High,HO
+Anupam Bakery,Mumbai,Core,04.04.2024,269000,High,HO
+Mahajan Food & Drinks Ltd,Mumbai,Promising,10.04.2024,253000,Low,Abhinav Mishra
+Anil Verma Enterprises,Surat,Loyal,24.03.2024,269000,High,HO
+Bhatnagar Cakes & Bakery,Surat,Core,08.04.2024,354000,Low,Siddharth Gupta
+Rajendra Singhania & Associates,Surat,Promising,08.04.2024,144000,Low,Siddharth Gupta
+Prasad Foods,Surat,Core,07.04.2024,261000,Low,Siddharth Gupta
+Joshi Snacks & Beverages,Delhi,Promising,10.04.2024,382000,Low,Karthik Singh
+Vikas Bakers,Surat,Loyal,02.04.2024,378000,High,HO
+Mamta Sethi,Surat,Promising,08.04.2024,337000,Low,Siddharth Gupta
+Arvind Foods,Surat,Loyal,01.04.2024,273000,High,HO
+Agarwal F&B,Delhi,Promising,08.04.2024,77000,Low,Karthik Singh
+Shankar Enterprises,Mumbai,Loyal,03.04.2024,315000,High,HO
+Chandra Bakery,Delhi,Others,17.04.2024,417000,Low,Karthik Singh
+Malhotra Enterprises,Surat,Loyal,03.04.2024,304000,High,HO
+Mohan Food & Beverages,Surat,Promising,06.04.2024,253000,Medium,Siddharth Gupta
+Rawat Hospitality,Surat,Promising,30.03.2024,191000,Low,Siddharth Gupta
+Yogesh Sharma & Associates,Surat,Promising,06.04.2024,180000,Medium,Siddharth Gupta
+Dinesh Mukherjee Enterprises,Mumbai,Core,07.04.2024,321000,Low,Abhinav Mishra
+Pramod Singh,Delhi,Core,02.04.2024,289000,High,HO
+Kapoor F&B Pvt Ltd,Surat,Promising,02.04.2024,117000,Low,Siddharth Gupta
+Anoop Sharma & Associates,Mumbai,Core,05.04.2024,427000,High,Abhinav Mishra
+Suresh Sharma Enterprises,Delhi,Core,09.04.2024,365000,Low,Karthik Singh
+Sinha Bakery,Surat,Core,07.04.2024,200000,Low,Siddharth Gupta
+Vyas Baking Company,Delhi,Others,13.04.2024,377000,Low,Karthik Singh
+Saxena Enterprises,Delhi,Core,07.04.2024,285000,Low,Karthik Singh
+Khanna Snacks,Mumbai,Core,03.04.2024,227000,High,HO
+Vivek Khanna,Mumbai,Core,07.04.2024,328000,Low,Abhinav Mishra
+Mehrotra Food Products,Mumbai,Core,06.04.2024,270000,High,Abhinav Mishra
+Prakash Singh Bakery,Delhi,Core,06.04.2024,443000,High,Karthik Singh
+Dutt Cakery,Mumbai,Core,08.04.2024,292000,Low,Abhinav Mishra
+Agrawal Foods,Mumbai,Promising,07.04.2024,174000,Low,Abhinav Mishra
+Ajay Srivastava Enterprises,Mumbai,Loyal,25.03.2024,309000,High,HO
+Harish Sethi & Co,Delhi,Core,05.04.2024,237000,High,Karthik Singh
+Goyal Food Processors,Surat,Core,06.04.2024,193000,High,Siddharth Gupta
+Nitin Tiwari & Co,Surat,Promising,08.04.2024,41000,Low,Siddharth Gupta
+Mehra Food Products,Delhi,Core,08.04.2024,115000,Low,Karthik Singh
+Surya Prakash Bakery,Mumbai,Core,07.04.2024,334000,Low,Abhinav Mishra
+Agarwal & Sons,Surat,Core,04.04.2024,356000,High,HO
+Khatri Food Processing Co,Surat,Promising,23.03.2024,201000,Low,Siddharth Gupta
+Gupta Products,Surat,Core,05.04.2024,244000,High,Siddharth Gupta
+Ritu Mehra Bakers,Mumbai,Core,07.04.2024,344000,Low,Abhinav Mishra
+Mehra Foods,Delhi,Promising,10.04.2024,155000,Low,Karthik Singh
+Banerjee Sweets & Bakery,Surat,Loyal,06.04.2024,343000,High,Siddharth Gupta
+Anita Maheshwari,Delhi,Core,04.04.2024,245000,High,HO
+Pooja Gruh Udyog,Mumbai,Loyal,12.03.2024,302000,High,HO
+Shree R International,Surat,Core,05.04.2024,327000,High,Siddharth Gupta
+MNC Global Multitrade,Delhi,Loyal,01.04.2024,302000,High,HO
+Kreative Chocolates,Delhi,Loyal,01.04.2024,348000,High,HO
+SP Exports,Delhi,Promising,28.03.2024,243000,Low,Karthik Singh
+Jai Kisan Glucose Derivatives,Mumbai,Promising,08.04.2024,257000,Low,Abhinav Mishra
+Cape Condiments,Delhi,Core,05.04.2024,282000,High,Karthik Singh
+Arihan Enterprises,Mumbai,Loyal,21.03.2024,276000,High,HO
+Surabhi Millet Café,Mumbai,Others,04.04.2024,277000,Low,Abhinav Mishra
+Chandana Enterprise,Surat,Promising,07.04.2024,60000,Low,Siddharth Gupta
+PRITCO Foods Pvt Ltd,Surat,Loyal,02.04.2024,399000,High,HO
+New Hope Food Industries,Surat,Promising,01.04.2024,145000,Low,Siddharth Gupta
+Ahamadi Bakery,Surat,Loyal,06.04.2024,408000,High,Siddharth Gupta
+Tiari International,Mumbai,Loyal,02.04.2024,278000,High,HO
+Muffin Bakery,Surat,Core,08.04.2024,264000,Low,Siddharth Gupta
+Ajay Atta Mill,Surat,Core,04.04.2024,232000,High,HO
+Manoj Namkeen Products,Delhi,Others,12.04.2024,178000,Low,Karthik Singh
+Laxy International,Surat,Promising,05.04.2024,270000,Medium,Siddharth Gupta
+Shaj Food Products,Surat,Loyal,26.03.2024,271000,High,HO
+Bently & Remington Pvt Ltd,Mumbai,Core,06.04.2024,274000,High,Abhinav Mishra
+Sumedha Cake Shop,Surat,Loyal,19.03.2024,257000,High,HO
+Ambay Shakti Foods,Surat,Loyal,03.04.2024,268000,High,HO
+Hill Wild Pvt Ltd,Delhi,Promising,08.04.2024,268000,Low,Karthik Singh
+Rai General Stores,Delhi,Others,18.04.2024,0,Low,Karthik Singh
+Priyanka Enterprises,Surat,Core,07.04.2024,236000,Low,Siddharth Gupta
+Rozz Bakes,Surat,Core,07.04.2024,395000,Low,Siddharth Gupta
+XL Trading Co,Mumbai,Core,04.04.2024,306000,High,HO
+Tapi Food Processing Pvt Ltd,Mumbai,Core,08.04.2024,273000,Low,Abhinav Mishra
+Smak Agro Enterprises,Mumbai,Others,18.04.2024,0,Low,Abhinav Mishra
+Boruah Foods,Surat,Core,09.04.2024,276000,Low,Siddharth Gupta
+Ganache Foods,Delhi,Core,08.04.2024,230000,Low,Karthik Singh
+Chocelito,Mumbai,Core,07.04.2024,261000,Low,Abhinav Mishra
+Freakeat foods,Surat,Core,08.04.2024,422000,Low,Siddharth Gupta
+Cakes & Confections,Delhi,Loyal,19.03.2024,269000,High,HO
+R G Bakery,Surat,Loyal,03.04.2024,223000,High,HO
+M/S Sarah Cakes,Delhi,Core,07.04.2024,255000,Low,Karthik Singh
+Shreenath Agency,Mumbai,Core,06.04.2024,372000,High,Abhinav Mishra
+HoneyVeda,Mumbai,Core,08.04.2024,255000,Low,Abhinav Mishra
+Chandigarh Sweets Ltd,Mumbai,Core,07.04.2024,212000,Low,Abhinav Mishra
+Sahu Gajak Bhandar,Mumbai,Core,05.04.2024,239000,High,Abhinav Mishra
+Diamond Industries,Surat,Core,05.04.2024,262000,High,Siddharth Gupta
+Sindhi Dry Fruit Impex,Surat,Promising,07.04.2024,156000,Low,Siddharth Gupta
+Ram Kumar,Mumbai,Loyal,28.03.2024,290000,High,HO
+New Asomi Bakery,Surat,Loyal,01.04.2024,273000,High,HO
+Navdeep Singh,Delhi,Loyal,26.03.2024,394000,High,HO
+Chocofantasy,Delhi,Loyal,31.03.2024,343000,High,HO
+Sarvantha Products,Surat,Core,06.04.2024,342000,High,Siddharth Gupta
+Rap Traders,Surat,Loyal,02.04.2024,316000,High,HO
+Bhadri Enterprises,Surat,Others,16.04.2024,514000,Low,Siddharth Gupta
+Vatsalya,Surat,Core,06.04.2024,156000,High,Siddharth Gupta
+Maclont Dairy,Delhi,Loyal,28.03.2024,401000,High,HO
+Meet Melties,Delhi,Core,07.04.2024,350000,Low,Karthik Singh
+Chaudhary Snacks,Delhi,Promising,04.04.2024,171000,Low,Karthik Singh
+Naresh Namkin Bhandar,Delhi,Core,03.04.2024,224000,High,HO
+BD Udyog,Surat,Others,13.04.2024,256000,Low,Siddharth Gupta
+Anand Food Products,Mumbai,Loyal,31.03.2024,323000,High,HO
+Maya Karyana Stores,Delhi,Loyal,29.03.2024,276000,High,HO
+Rajesh Madhuakar,Surat,Core,06.04.2024,269000,High,Siddharth Gupta
+Mohit FMCG Products Pvt Ltd,Mumbai,Others,12.04.2024,100000,Low,Abhinav Mishra
+M/S Karnail Singh & Sons,Mumbai,Promising,11.04.2024,166000,Low,Abhinav Mishra
+Raman Kumar,Surat,Loyal,04.04.2024,312000,High,HO
+M/S Thakur Traders,Mumbai,Others,13.04.2024,0,Low,Abhinav Mishra
+Joginder Singh & Sons,Delhi,Promising,11.04.2024,334000,Low,Karthik Singh
